@@ -21,7 +21,7 @@ y1 = log(z);
 [a0, a1, r2] = calculate_linear_regression_coef(y1,U );
 
 u_starsecond = a1 * kappa; % the value of shear velocity from second equation
-
+function [a0, a1, r2] = calculate_linear_regression_coef(x, y)
     % Number of observations/points
     n = numel(x);
 
